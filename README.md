@@ -19,7 +19,7 @@ You can add your custom code in the `header.html` and `footer.html`.
 ![grid](https://cloud.githubusercontent.com/assets/12368291/19376773/8444eaa6-91fe-11e6-9a1e-d233553191a6.png)  
 
 ### Table style:  
-![table](https://cloud.githubusercontent.com/assets/12368291/19376783/951cc542-91fe-11e6-91d1-4a41b7880f7f.png)  
+![table](https://i.gyazo.com/f977e1b9529fa1ff27e179e53c7ea580.png)  
 
 ## Credits
 Icons referenced from [File Types Icons Set](http://uifest.com/product/file-types-icons-set).
