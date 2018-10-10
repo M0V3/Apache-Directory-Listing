@@ -5,16 +5,17 @@
 html,
 body {
   margin: 0;
-  color: #404040;
+  color: #ecf0f1;
   font-size: 16px;
   font-family: Roboto, Ubuntu, 'Open Sans', sans-serif;
   line-height: 1.5;
+  background-color: #34495e;
 }
 
 body {
   min-height: 100vh;
-  border-top: 10px solid #7f8c8d;
-  border-bottom: 10px solid #7f8c8d;
+  border-top: 10px solid #1abc9c;
+  border-bottom: 10px solid #16a085;
 }
 
 main {
@@ -34,18 +35,20 @@ tr.parent {
 
 tr.indexhead,
 tr.odd {
-	background-color: #F9F9F9;
+	background-color: #314556;
 }
 
 tr a {
   display: block;
-  color: #2980b9;
+  color: #3498db;
   text-decoration: none;
 }
 
+/*
 tr a:hover {
 	text-decoration: underline;
 }
+*/
 
 th {
   text-align: left;
@@ -55,7 +58,7 @@ th {
 
 th,
 td {
-  border: 1px solid #dddddd;
+  border: 1px solid #7f8c8d;
 }
 
 th.indexcolname {
@@ -83,4 +86,32 @@ footer {
   margin: 20px 0;
   padding: 20px;
   color: #9099A3;
+}
+
+.indexcolname a:hover, .indexcollastmod a:hover, .indexcolsize a:hover {
+        /*text-decoration: underline;*/
+        border-bottom: dotted 1px #3498db;
+}
+
+.parent {
+	display: none;
+}
+
+.copyright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #7f8c8d;
+	font-size: 12px;
+	margin: 20px;
+}
+
+.copyright a {
+	color: #95a5a6;
+	text-decoration: none;
+}
+
+.copyright a:hover {
+	color: #bdc3c7;
+	border-bottom: 1px dotted #ecf0f1;
 }
